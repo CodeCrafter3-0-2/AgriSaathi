@@ -1,0 +1,29 @@
+{
+  "name": "fvoice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google-cloud/speech": "^7.3.0",
+    "@google-cloud/text-to-speech": "^6.4.0",
+    "@google/generative-ai": "^0.24.1",
+    "avr-vad": "^1.0.9",
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1",
+    "franc-min": "^6.2.0",
+    "langs": "^2.0.0",
+    "mongoose": "^9.4.1",
+    "ws": "^8.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
